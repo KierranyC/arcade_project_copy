@@ -1,7 +1,7 @@
 function gameBoard(){
     const blocks = document.querySelectorAll('.block');
     const whosTurn = document.querySelector('.whos-turn');
-    const resetGame = document.querySelector('#reset-game');
+    const resetGame = document.querySelector('.reset-game');
     
     let currentPlayer = 'X';
     let board = ['', '', '', '', '', '', '', '', ''];
